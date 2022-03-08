@@ -1,0 +1,6 @@
+framework module Pods_RxCocoaBasicTests {
+  umbrella header "Pods-RxCocoaBasicTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

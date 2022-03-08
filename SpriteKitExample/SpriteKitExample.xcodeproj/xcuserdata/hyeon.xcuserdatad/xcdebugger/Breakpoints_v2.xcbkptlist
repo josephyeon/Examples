@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "C4CEA372-F0CF-415A-B6F9-D89441E34700"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "112F197A-B2CA-470D-8AC7-2933F082EFDA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpriteKitExample/SpriteKitScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "sceneDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27879DA2-BDD4-407D-828F-775541598874"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpriteKitExample/SpriteKitScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "SpriteKitScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - 342dd0107a0bc132"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.index.getter : Swift.Int"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - faa2605c6864b546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.index.setter : Swift.Int"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - 94031ec85086a2a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.index.modify : Swift.Int"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - ed3fba3add93ec46"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.index.modify : Swift.Int with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - 5d76b79a1250cbe3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.init(size: __C.CGSize) -&gt; SpriteKitExample.SpriteKitScene"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - 4300ca981e91dd7c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.init() -&gt; SpriteKitExample.SpriteKitScene"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "27879DA2-BDD4-407D-828F-775541598874 - e6d302964b5b7a86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpriteKitExample.SpriteKitScene.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SpriteKitExample.SpriteKitScene&gt;"
+                  moduleName = "SpriteKitExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hyeon/Desktop/Examples/SpriteKitExample/SpriteKitExample/SpriteKitScene.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

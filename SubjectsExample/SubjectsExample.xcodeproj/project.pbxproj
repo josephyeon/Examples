@@ -20,6 +20,7 @@
 		C30077C427D747A100C1A852 /* SubjectsExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30077C327D747A100C1A852 /* SubjectsExampleUITestsLaunchTests.swift */; };
 		C30077D127D749D600C1A852 /* PublishSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30077D027D749D600C1A852 /* PublishSubject.swift */; };
 		C30077D327D7536700C1A852 /* BehaviorSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30077D227D7536700C1A852 /* BehaviorSubject.swift */; };
+		C31C2E2E27D760BA0085A7EF /* RelaySubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31C2E2D27D760BA0085A7EF /* RelaySubject.swift */; };
 		DDE99C9F65512786D81F3023 /* Pods_SubjectsExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4538232A7352081943F254DF /* Pods_SubjectsExampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		C30077C327D747A100C1A852 /* SubjectsExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C30077D027D749D600C1A852 /* PublishSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSubject.swift; sourceTree = "<group>"; };
 		C30077D227D7536700C1A852 /* BehaviorSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorSubject.swift; sourceTree = "<group>"; };
+		C31C2E2D27D760BA0085A7EF /* RelaySubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaySubject.swift; sourceTree = "<group>"; };
 		D22FFB3376345B65DD4BF686 /* Pods-SubjectsExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SubjectsExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SubjectsExampleTests/Pods-SubjectsExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F506BA2A2671647C1083E3FC /* Pods_SubjectsExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SubjectsExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,11 +132,10 @@
 		C300779F27D747A000C1A852 /* SubjectsExample */ = {
 			isa = PBXGroup;
 			children = (
+				C30077A427D747A000C1A852 /* ViewController.swift */,
+				C31C2E2C27D75EF60085A7EF /* Subjects */,
 				C30077A027D747A000C1A852 /* AppDelegate.swift */,
 				C30077A227D747A000C1A852 /* SceneDelegate.swift */,
-				C30077A427D747A000C1A852 /* ViewController.swift */,
-				C30077D227D7536700C1A852 /* BehaviorSubject.swift */,
-				C30077D027D749D600C1A852 /* PublishSubject.swift */,
 				C30077A627D747A000C1A852 /* Main.storyboard */,
 				C30077A927D747A100C1A852 /* Assets.xcassets */,
 				C30077AB27D747A100C1A852 /* LaunchScreen.storyboard */,
@@ -158,6 +159,16 @@
 				C30077C327D747A100C1A852 /* SubjectsExampleUITestsLaunchTests.swift */,
 			);
 			path = SubjectsExampleUITests;
+			sourceTree = "<group>";
+		};
+		C31C2E2C27D75EF60085A7EF /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				C30077D227D7536700C1A852 /* BehaviorSubject.swift */,
+				C30077D027D749D600C1A852 /* PublishSubject.swift */,
+				C31C2E2D27D760BA0085A7EF /* RelaySubject.swift */,
+			);
+			path = Subjects;
 			sourceTree = "<group>";
 		};
 		CE62BCAD01075C5DDB53ACC0 /* Pods */ = {
@@ -414,6 +425,7 @@
 			files = (
 				C30077A527D747A000C1A852 /* ViewController.swift in Sources */,
 				C30077D327D7536700C1A852 /* BehaviorSubject.swift in Sources */,
+				C31C2E2E27D760BA0085A7EF /* RelaySubject.swift in Sources */,
 				C30077A127D747A000C1A852 /* AppDelegate.swift in Sources */,
 				C30077D127D749D600C1A852 /* PublishSubject.swift in Sources */,
 				C30077A327D747A000C1A852 /* SceneDelegate.swift in Sources */,

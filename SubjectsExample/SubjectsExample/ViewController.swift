@@ -15,7 +15,8 @@ class ViewController: UIViewController {
         self.publishSubject()
         self.behaviorSubject()
         self.relaySubject()
-        
+        self.publishRelay()
+        self.behaviorRelay()
     }
     
     public func example(of description: String,

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PageViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="T1y-GB-bb5">
+                                <rect key="frame" x="0.0" y="44" width="414" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhb-GG-gWm">
+                                        <rect key="frame" x="0.0" y="0.0" width="88.5" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="A"/>
+                                        <connections>
+                                            <action selector="btnATapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RjK-bu-IXj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z2Q-SY-aZt">
+                                        <rect key="frame" x="108.5" y="0.0" width="88.5" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="B"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MUb-9r-QD5">
+                                        <rect key="frame" x="217" y="0.0" width="88.5" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="C"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3g-vO-XM3">
+                                        <rect key="frame" x="325.5" y="0.0" width="88.5" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="D"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwp-Rl-vDZ">
+                                <rect key="frame" x="0.0" y="74" width="414" height="788"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fwp-Rl-vDZ" secondAttribute="trailing" id="5fD-Bq-XAf"/>
+                            <constraint firstItem="fwp-Rl-vDZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Bbo-4O-KAv"/>
+                            <constraint firstItem="T1y-GB-bb5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CAp-5M-dNK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fwp-Rl-vDZ" secondAttribute="bottom" id="JJw-sl-ddL"/>
+                            <constraint firstItem="T1y-GB-bb5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="L6M-Zc-hPV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T1y-GB-bb5" secondAttribute="trailing" id="NfS-Zy-ubz"/>
+                            <constraint firstItem="T1y-GB-bb5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="qpB-gR-N2i"/>
+                            <constraint firstItem="fwp-Rl-vDZ" firstAttribute="top" secondItem="T1y-GB-bb5" secondAttribute="bottom" id="uZH-CI-xki"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnA" destination="rhb-GG-gWm" id="mXc-kP-VU8"/>
+                        <outlet property="btnB" destination="z2Q-SY-aZt" id="Ld6-jx-Z0G"/>
+                        <outlet property="btnC" destination="MUb-9r-QD5" id="XYJ-b3-1eJ"/>
+                        <outlet property="btnD" destination="m3g-vO-XM3" id="Vkx-Gj-dAj"/>
+                        <outlet property="containerView" destination="fwp-Rl-vDZ" id="9fR-1s-elR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-559" y="115"/>
+        </scene>
+        <!--PageA-->
+        <scene sceneID="7fy-VF-svM">
+            <objects>
+                <viewController storyboardIdentifier="PageA" title="PageA" id="GDm-bL-F7J" customClass="PageAViewController" customModule="PageViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RzM-27-WxO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ggC-At-6Dj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLn-31-omT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="115"/>
+        </scene>
+        <!--PageB-->
+        <scene sceneID="8Al-Ig-RVS">
+            <objects>
+                <viewController storyboardIdentifier="PageB" title="PageB" id="GpX-pr-rWx" customClass="PageBViewController" customModule="PageViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="y1n-ip-Ek9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="IXh-be-4DM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LcP-H4-ChM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="883" y="115"/>
+        </scene>
+        <!--PageC-->
+        <scene sceneID="qFf-uS-xm0">
+            <objects>
+                <viewController storyboardIdentifier="PageC" title="PageC" id="SaG-x5-Vy3" customClass="PageCViewController" customModule="PageViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hXU-1h-Ctp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="O5P-CL-skw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="omp-wA-FAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1600" y="115"/>
+        </scene>
+        <!--PageD-->
+        <scene sceneID="5MI-FK-dsP">
+            <objects>
+                <viewController storyboardIdentifier="PageD" title="PageD" id="573-Om-ZNT" customClass="PageDViewController" customModule="PageViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QlN-3t-m9T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NPn-Lo-Xij"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JV1-Fg-v9D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2330" y="115"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
